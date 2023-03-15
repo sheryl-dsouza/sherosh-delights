@@ -1,7 +1,12 @@
-/* .navbar-inner {
-    background:'pink';
-} */
 
-Nav.Link {
-    color: green;
+
+.nav-link {
+color: #f75c8a !important;
+font-weight: 900 !important;
+font-family: 'Josefin Sans'
+}
+
+.navbar {
+    height: 10%;
+    font-size: 100%;
 }

@@ -15,7 +15,16 @@
 }
 
 .cake{
-    margin-left: 9%;  
+    margin-left: 15%;  
     margin-top: 17%;
-    width: 80%;
+    width: 70%;
+}
+
+.menu{
+    margin-left:14%;
+}
+
+.other {
+    height: 6%;
+    margin-top: 3%;
 }

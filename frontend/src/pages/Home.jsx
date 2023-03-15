@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Text from '../home.png'
 import Cake from '../cake.png'
 import './Home.css'
+import Menu from '../menu-button.png'
 
 function Home() {
     return (
@@ -13,6 +14,9 @@ function Home() {
           <Col style={{background:'#FF89AD', minHeight:'1000px'}}>
             <img class="full-width" src={Text}></img>
             <p class= "para">some cute text over here telling everyone a little bit about you and your life. A small about page never hurt anyone and it is always great to have an audience to know your true backstory. Sometimes life gives you lemons and other times it does not but you must make the most out of it either way or its all hogwash.</p>
+            <a href="www.test.com" class="menu"> 
+            <img src={Menu} class="other"/> 
+            </a>        
         </Col>
           <Col style={{background:'#FFB4C6'}}>
                 <img src={Cake} class="cake"></img>
