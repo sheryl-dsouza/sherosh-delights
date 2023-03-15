@@ -1,28 +1,16 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-
-
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Home() {
     return (
-        <div className="main" >
-            <Container className="bottom"
-                style={{ 
-                    backgroundColor: "#abdfed",
-                    textAlign: "center",
-                    paddingTop: "60px",
-                    maxWidth: "100%",
-                    height: "25vh" 
-                }}>
-                <h1>Connecting you to the world around you!</h1>
-            </Container>
-            <Container>
-                <h1 className="d-flex justify-content-center p-4">Where to next?</h1>
-                <Container style={{display: 'flex'}}>
-                    hi
-                </Container>
-            </Container>
-        </div>
+        <div>
+        <Row>
+          <Col style={{background:'#FF89AD', minHeight:'1000px'}}>1 of 1</Col>
+          <Col style={{background:'#FFB4C6'}}>1 of 2 <br></br></Col>
+        </Row>
+      </div>
     );
 };
 
