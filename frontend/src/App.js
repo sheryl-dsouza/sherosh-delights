@@ -5,7 +5,7 @@ import Menu from "./pages/Menu"
 import About from "./pages/About"
 import Contact from './pages/Contact'
 
-import "./styles.css";
+import "./App.css";
 import { Link } from "react-scroll";
 
 export default function App() {

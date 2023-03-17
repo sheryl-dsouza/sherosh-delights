@@ -30,6 +30,7 @@
 }
 
 .contains{
-    padding: 5%;
-    background-image: url("../back.jpeg");
+    margin: 5%;
+    /* padding: 5%;
+    background-image: url("../back.jpeg"); */
 }

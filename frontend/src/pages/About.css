@@ -1,7 +1,9 @@
 .thisone{
     background-image:  url('../Menu-8.png');
     background-size: cover;
-    min-height: 800px;
+    min-height: 700px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(128, 29, 82, 0.5);
 }
     
 .oth{
@@ -9,9 +11,9 @@
 }
 
 .containsss{
-    padding: 5%;
-    background-image: url("../backer.png");
-}
+    margin: 5%;
+    /* background-image: url("../backer.png");*/
+} 
 
 .title{
     margin-top: 40%;

@@ -1,10 +1,12 @@
 
 .containssss{
-    padding: 10%;
+    margin: 0 20% 5% 20%;
     background-image: url("../backer.png");
 }
 
 .thisones{
     background-size: cover;
     min-height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(128, 29, 82, 0.5);
 }

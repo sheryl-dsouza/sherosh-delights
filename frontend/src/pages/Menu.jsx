@@ -11,7 +11,7 @@ function Menu(){
             <link href='https://fonts.googleapis.com/css?family=Sail' rel='stylesheet'/>
         <div className="containss">
         <Row>
-        <Col style={{background:'#FFECF2', minHeight:'1000px'}}>
+        <Col style={{background:'#FFECF2', minHeight:'1000px', borderRadius:'20px', boxShadow: '0px 0px 20px 0px rgba(128, 29, 82, 0.5)'}}>
         <div className='contain'>
             <div className='simple'>
             <h4>Cake Flavors</h4>
