@@ -11,16 +11,19 @@ import {isMobile} from 'react-device-detect';
 
 function Home() {
   if (isMobile) {
-    return (<div>
-    <div >
+    return (        <div className="background">
+    <div className="contains">
   <Row>
-    <Col style={{background:'#FF89AD', opacity:'.95', borderRadius:'20px', boxShadow: '0px 0px 20px 0px rgba(128, 29, 82, 0.5)', margin:'5% 12% 5% 12%'}}>
-    <img src={Cake} style={{borderRadius:'20px', marginTop:'5%',marginLeft:'auto', marginRight:'auto', display:'block', width:'80%'}}></img>
-      <p className="para" style={{marginLeft:'auto', marginRight:'auto', display:'block', textAlign:'center', fontSize:'100%', fontFamily: 'Sail'}}>Sherosh Delights</p>
-      <Link activeClass="active" smooth spy to="menu">
-        <img src={Menu} class="other" style={{marginLeft:'auto', marginRight:'auto', display:'block', blockSize:'8%'}}/> 
+    <Col style={{background:'#FF89AD', width:'85% ',minHeight:'50px', opacity:'.95', borderRadius:'20px 0 0 20px', boxShadow: '0px 0px 20px 0px rgba(128, 29, 82, 0.5)' }}>
+      <img class="full-width" src={Text}></img>
+      <p className="para">Welcome to Sherosh Delights!</p>
+      <p className="para">At Sherosh Delights, I specialize in creating delicious and beautifully decorated cakes for all occasions. From birthdays to baby showers to anniversaries, I've got you covered. My cakes are baked fresh using only the finest ingredients, and I take pride in creating custom designs to match your vision.</p>
+      <Link activeClass="active" smooth spy to="menu" style={{marginLeft:'14%'}}>
+        <img src={Menu} class="other"/> 
       </Link>        
   </Col>
+    <Col style={{background:'#FFECF2', opacity:'1', borderRadius:'0 20px 20px 0'}}> 
+    </Col>
   </Row>
   </div>
 </div>)
