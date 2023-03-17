@@ -10,15 +10,15 @@ import {Link} from 'react-scroll'
 import {isMobile} from 'react-device-detect';
 
 function Home() {
-  if (isMobile) {
+  if (!isMobile) {
     return (<div className="background">
-    <div className="contains">
+    <div >
   <Row>
-    <Col style={{background:'#FF89AD', opacity:'.95', borderRadius:'20px', boxShadow: '0px 0px 20px 0px rgba(128, 29, 82, 0.5)' }}>
-    <img src={Cake} style={{width:'40%', borderRadius:'20px', marginTop:'5%',marginLeft:'auto', marginRight:'auto', display:'block'}}></img>
+    <Col style={{background:'#FF89AD', opacity:'.95', borderRadius:'20px', boxShadow: '0px 0px 20px 0px rgba(128, 29, 82, 0.5)', margin:'5%'}}>
+    <img src={Cake} style={{borderRadius:'20px', marginTop:'5%',marginLeft:'auto', marginRight:'auto', display:'block'}}></img>
       <p className="para" style={{marginLeft:'auto', marginRight:'auto', display:'block', textAlign:'center'}}>Welcome to Sherosh Delights!</p>
       <Link activeClass="active" smooth spy to="menu">
-        <img src={Menu} class="other" style={{marginLeft:'auto', marginRight:'auto', display:'block', blockSize:'10%'}}/> 
+        <img src={Menu} class="other" style={{marginLeft:'auto', marginRight:'auto', display:'block', blockSize:'5%'}}/> 
       </Link>        
   </Col>
   </Row>
