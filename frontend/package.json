@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://sheryl-dsouza.github.io/sherosh-delights",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
