@@ -26,6 +26,7 @@
   position: relative;
 }
 
+
 .nav__container__actions {
   position: fixed;
   padding-top: 6%;
@@ -59,3 +60,14 @@ li {
 li:hover {
   text-decoration: underline;
 }
+
+button {
+  width: 2px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: none;
+  margin: none;
+  cursor: pointer;
+}
+

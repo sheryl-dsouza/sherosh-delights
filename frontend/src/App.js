@@ -6,7 +6,8 @@ import About from "./pages/About"
 import Contact from './pages/Contact'
 
 import "./App.css";
-import { Link } from "react-scroll";
+import { Link, animateScroll} from "react-scroll";
+import scroll from "./scroll.png"
 
 export default function App() {
   return (
@@ -44,6 +45,15 @@ export default function App() {
       <section id="menu"><Menu/></section>
       <section id="contact"><Contact/></section>
       </div>
+      <ScrollToTopButton/>
     </div>
   );
 }
+
+function ScrollToTopButton() {
+    return (  
+      <div style={{  position: 'fixed', bottom: '20px', right: '20px'}}onClick={() => animateScroll.scrollToTop()}>
+        <img src={scroll} style={{width:'150px'}}/>
+      </div>
+    );
+  }
