@@ -10,7 +10,7 @@ import {Link} from 'react-scroll'
 import {isMobile} from 'react-device-detect';
 
 function Home() {
-  if (!isMobile) {
+  if (isMobile) {
     return (<div>
     <div >
   <Row>
