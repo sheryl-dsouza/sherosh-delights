@@ -34,7 +34,7 @@ function Home() {
             <p className="para">Welcome to Sherosh Delights!</p>
             <p className="para">At Sherosh Delights, I specialize in creating delicious and beautifully decorated cakes for all occasions. From birthdays to baby showers to anniversaries, I've got you covered. My cakes are baked fresh using only the finest ingredients, and I take pride in creating custom designs to match your vision.</p>
             <p className="para">Check out our menu page for a selection of our flavors, fillings, and icings to choose from. I offer speciality cakes, as well as other desserts. Lastly, if you have something in mind that is not listed, let me know! You dream it, I make it. </p>
-            <Link activeClass="active" smooth spy to="menu" className="menu">
+            <Link activeClass="active" smooth spy to="menu" style={{marginLeft:'14%'}}>
               <img src={Menu} class="other"/> 
             </Link>        
         </Col>
