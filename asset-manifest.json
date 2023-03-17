@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.361d6531.css",
+    "main.js": "/react-gh-pages/static/js/main.992daea1.js",
+    "static/js/787.cda612ba.chunk.js": "/react-gh-pages/static/js/787.cda612ba.chunk.js",
+    "static/media/momm.png": "/react-gh-pages/static/media/momm.b1557d8bec5c04889aa0.png",
+    "static/media/Menu-8.png": "/react-gh-pages/static/media/Menu-8.ff99923d78d3ee35380c.png",
+    "static/media/backer.png": "/react-gh-pages/static/media/backer.e42b208bd4c2f4730cfd.png",
+    "static/media/Menu-3.png": "/react-gh-pages/static/media/Menu-3.7a829e2e628bf1717380.png",
+    "static/media/contact.png": "/react-gh-pages/static/media/contact.cf3fdcae79cf02b2d1ae.png",
+    "static/media/cake.png": "/react-gh-pages/static/media/cake.e0a1dcdc32268fe07f7f.png",
+    "static/media/Component 1-2.png": "/react-gh-pages/static/media/Component 1-2.280c5a25fd03ac3c3db9.png",
+    "static/media/home.png": "/react-gh-pages/static/media/home.048b7f9fdcd62bb9f6f7.png",
+    "static/media/about-font.png": "/react-gh-pages/static/media/about-font.be6510f2c3c997f941d2.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.361d6531.css.map": "/react-gh-pages/static/css/main.361d6531.css.map",
+    "main.992daea1.js.map": "/react-gh-pages/static/js/main.992daea1.js.map",
+    "787.cda612ba.chunk.js.map": "/react-gh-pages/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.361d6531.css",
+    "static/js/main.992daea1.js"
+  ]
+}
