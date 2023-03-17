@@ -9,8 +9,26 @@ import Mom from '../momm.png'
 import Font from '../about-font.png'
 import './Contact.css'
 import contact from '../contact.png'
+import {isMobile} from 'react-device-detect';
 
 function Contact(){
+    if (isMobile) {
+        return(
+            <div className="background">
+            <div className="containssss-2">
+                <div className="oth">
+            <div className="thisones">
+                <Row>
+                    <Col>
+                    <img src={contact} style={{width:'100%'}}/>
+                    </Col>
+                </Row>
+            </div>
+            </div>
+          </div>
+        </div>
+        )
+    }
     return(
         <div className="background">
         <div className="containssss">
