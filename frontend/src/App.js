@@ -11,7 +11,7 @@ import { Link } from "react-scroll";
 export default function App() {
   return (
     <div className="App">
-      <header className="nav">
+      <header className='navbar'>
         <nav className="nav__container__actions">
           <ul>
           <li>
