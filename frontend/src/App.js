@@ -1,20 +1,49 @@
-import './App.css';
-import React from 'react';
-import GlobalNavbar from "./components/GlobalNavbar";
-import { Route, Routes } from "react-router-dom";
+import React, { useState } from 'react';
 
 import Home from "./pages/Home"
+import Menu from "./pages/Menu"
+import About from "./pages/About"
+import Contact from './pages/Contact'
 
-function App() {
+import "./styles.css";
+import { Link } from "react-scroll";
+
+export default function App() {
   return (
-    <div>
-      <GlobalNavbar />
-      <Routes>
-            <Route path = "/" element={<Home />} />
-      </Routes>
+    <div className="App">
+      <header className="nav">
+        <nav className="nav__container__actions">
+          <ul>
+          <li>
+              <Link activeClass="active" smooth spy to="home">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link activeClass="active" smooth spy to="about">
+                About
+              </Link>
+            </li>
+            <li>
+              <Link activeClass="active" smooth spy to="menu">
+                Menu
+              </Link>
+            </li>
+            <li>
+              <Link activeClass="active" smooth spy to="contact">
+                Contact
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div className='bg'></div>
+      <div className='cont'>
+      <section id="home"><Home/></section>
+      <section id="about"><About/></section>
+      <section id="menu"><Menu/></section>
+      <section id="contact"><Contact/></section>
+      </div>
     </div>
   );
 }
-
-export default App;
-

@@ -1,0 +1,45 @@
+
+
+.menu{
+    background-color: #FFB4C6;
+    opacity: 0.96;
+    margin-right: 100px;
+}
+
+.containss{
+    background-image: url("../backer.png");
+    padding: 5%;
+}
+
+.contain{
+    padding: 5%;
+    background-image: url("../Menu-3.png");
+    background-repeat: no-repeat;
+}
+
+.simple{
+    margin-top: 12%;
+}
+
+
+h4 {
+    font-family: 'Sail';
+    color: #000000;
+    padding-top: 3%;
+    text-align: center;
+    font-size: 30px !important;
+}
+
+.assort{
+    font-family: 'Josefin Sans';
+    text-align: center;
+    font-size: large;
+    padding-top: 2%;
+}
+
+.description{
+    text-align: center;
+    margin-top: -5px;
+    font-family: 'Josefin Sans';
+    color: gray;
+}

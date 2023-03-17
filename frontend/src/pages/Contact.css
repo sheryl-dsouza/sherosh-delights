@@ -1,0 +1,10 @@
+
+.containssss{
+    padding: 10%;
+    background-image: url("../backer.png");
+}
+
+.thisones{
+    background-size: cover;
+    min-height: auto;
+}
