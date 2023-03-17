@@ -15,7 +15,9 @@ function Home() {
         <Row>
           <Col style={{background:'#FF89AD', minHeight:'700px', opacity:'.95', borderRadius:'20px 0 0 20px', boxShadow: '0px 0px 20px 0px rgba(128, 29, 82, 0.5)' }}>
             <img class="full-width" src={Text}></img>
-            <p class= "para">some cute text over here telling everyone a little bit about you and your life. A small about page never hurt anyone and it is always great to have an audience to know your true backstory. Sometimes life gives you lemons and other times it does not but you must make the most out of it either way or its all hogwash.</p>
+            <p className="para">Welcome to Sherosh Delights!</p>
+            <p className="para">At Sherosh Delights, I specialize in creating delicious and beautifully decorated cakes for all occasions. From birthdays to weddings, baby showers to anniversaries, I've got you covered. My cakes are baked fresh using only the finest ingredients, and I take pride in creating custom designs to match your vision.</p>
+            <p className="para">Check out our menu page for a selection of our flavors, fillings, and icings to choose from. I offer speciality cakes, as well as other desserts. Lastly, if you have something in mind that is not listed, let me know! You dream it, I make it. </p>
             <Link activeClass="active" smooth spy to="menu" className="menu">
               <img src={Menu} class="other"/> 
             </Link>        
